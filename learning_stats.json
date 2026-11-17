@@ -1,0 +1,46 @@
+{
+  "No": {
+    "attempts": 2,
+    "successes": 2
+  },
+  "S": {
+    "attempts": 1,
+    "successes": 1
+  },
+  "N": {
+    "attempts": 2,
+    "successes": 0
+  },
+  "Yes": {
+    "attempts": 1,
+    "successes": 1
+  },
+  "O": {
+    "attempts": 1,
+    "successes": 1
+  },
+  "L": {
+    "attempts": 1,
+    "successes": 1
+  },
+  "Technology": {
+    "attempts": 1,
+    "successes": 1
+  },
+  "Hello": {
+    "attempts": 1,
+    "successes": 0
+  },
+  "War": {
+    "attempts": 1,
+    "successes": 1
+  },
+  "G": {
+    "attempts": 1,
+    "successes": 1
+  },
+  "M": {
+    "attempts": 1,
+    "successes": 0
+  }
+}

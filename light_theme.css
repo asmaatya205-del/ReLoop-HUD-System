@@ -1,0 +1,110 @@
+/* الخلفية الرئيسية للنافذة */
+QWidget#central {
+    background-color: #f4f6f9; /* رمادي فاتح ناعم */
+    color: #2c3e50; /* كحلي داكن مقروء جداً */
+    font-family: 'Consolas', 'Monaco', monospace;
+}
+
+/* لوحة التحكم الجانبية */
+QWidget#side_panel {
+    background-color: #ffffff; /* أبيض ناصع للتباين */
+    border-left: 1px solid #e1e8ed;
+}
+
+/* الصناديق التي تعرض الحالة */
+.StatusBox {
+    background-color: #fdfdfd;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* العناوين داخل الصناديق */
+QLabel {
+    color: #7f8c8d;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* القيم النصية البارزة */
+QLabel#mood_val, QLabel#transcript_val {
+    color: #2980b9; /* أزرق ملكي مريح */
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* الأزرار الرئيسية */
+QPushButton {
+    background-color: #ffffff;
+    color: #34495e;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+QPushButton:hover {
+    background-color: #f7fafc;
+    border-color: #3182ce;
+    color: #2b6cb0;
+}
+
+QPushButton:pressed {
+    background-color: #3182ce;
+    color: #ffffff;
+}
+
+/* زر تبديل المود الخاص */
+QPushButton#themeToggleBtn {
+    background-color: #fefcbf;
+    border: 1px solid #d69e2e;
+    color: #b7791f;
+}
+
+/* الأزرار ذات اللون الخاص بالترجمة الذكية */
+QPushButton#translateBtn {
+    border: 1px solid #3182ce;
+    color: #3182ce;
+    background-color: #ebf8ff;
+}
+
+/* أزرار وضع التعليم */
+.WordLearnBtn {
+    background-color: #e6fffa;
+    color: #234e52;
+    border: 1px dashed #319795;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 6px;
+}
+
+.WordLearnBtn:hover {
+    background-color: #319795;
+    border: 1px solid #234e52;
+    color: #ffffff;
+}
+
+/* شريط التقدم */
+QProgressBar {
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    text-align: center;
+    color: #2d3748;
+    background-color: #edf2f7;
+    font-weight: bold;
+}
+
+QProgressBar::chunk {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 rgb(79,209,197), stop:1 rgb(49,151,149));
+    border-radius: 4px;
+}
+
+/* شاشة عرض الكاميرا */
+QLabel#camera_view {
+    border: 2px solid #e2e8f0;
+    border-radius: 15px;
+    background-color: #edf2f7;
+}
